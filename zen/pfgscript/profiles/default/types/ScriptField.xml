@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<object name="Script Field"
+<object name="ScriptField"
    meta_type="Factory-based Type Information with dynamic views"
    i18n:domain="zen.pfgscript" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
   <property name="title" i18n:translate="">Script Field</property>
   <property name="description"
     i18n:translate="">Javascript Field</property>
   <property name="content_meta_type">ScriptField</property>
-  <property name="content_icon">document_icon.gif</property>
+  <property name="content_icon">document_icon.png</property>
   <property name="product">zen.pfgscript</property>
   <property name="factory">addScriptField</property>
   <property name="immediate_view">atct_edit</property>

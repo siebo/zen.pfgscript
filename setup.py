@@ -55,7 +55,7 @@ setup(name='zen.pfgscript',
       include_package_data=True,
       zip_safe=False,
       install_requires=['setuptools',
-                        # -*- Extra requirements: -*-
+                        'Products.PloneFormGen'
                         ],
       tests_require=tests_require,
       extras_require=dict(tests=tests_require),
@@ -65,6 +65,4 @@ setup(name='zen.pfgscript',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
